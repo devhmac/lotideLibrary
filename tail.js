@@ -21,6 +21,3 @@ console.log(assertEqual(tail([1, 2, 3, 4]), [2, 3, 4]));
 const words = ["hello", "lighthoues", "labs"];
 tail(words);
 assertEqual(words.length, 3);
-
-console.log(assertEqual(tail([1]), []));
-console.log(tail([1]));
