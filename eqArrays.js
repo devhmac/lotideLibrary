@@ -22,22 +22,21 @@ const eqArrays = function (array1, array2) {
         return false;
       }
     }
-    console.log('Your arrays match!')
+    console.log('Your arrays match!');
     return true;
   } else {
-    console.log('Arrays are not the same length')
+    console.log('Arrays are not the same length');
     return false;
   }
+};
 
-}
+eqArrays([1, 2, 3], [1, 2, 3]); // => true
+eqArrays([1, 2, 3], [3, 2, 1]); // => false
 
-eqArrays([1, 2, 3], [1, 2, 3]) // => true
-eqArrays([1, 2, 3], [3, 2, 1]) // => false
+eqArrays(["1", "2", "3"], ["1", "2", "3"]); // => true
+eqArrays(["1", "2", "3"], ["1", "2", 3]); // => false
 
-eqArrays(["1", "2", "3"], ["1", "2", "3"]) // => true
-eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
-
-console.log(eqArrays([1, 2, 3,], [1, 2, 3]))
+console.log(eqArrays([1, 2, 3,], [1, 2, 3]));
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 assertEqual(eqArrays([1, 2, 3], [1, 2, 2]), true);
