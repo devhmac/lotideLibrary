@@ -18,7 +18,7 @@ const eqArrays = function (array1, array2) {
       // console.log('arr 1 :', array1[i]);
       // console.log('arr 2 :', array2[i]);
       if (array1[i] !== array2[i]) {
-        console.log(`Index ${i} does not match. Array1 = ${array1[i]}, Array 2 = ${array2[i]}`);
+        console.log(`Index ${i} is the first not matching. Array1 = ${array1[i]}, Array 2 = ${array2[i]}`);
         return false;
       }
     }
