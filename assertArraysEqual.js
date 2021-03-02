@@ -14,12 +14,11 @@ const assertArraysEqual = function (array1, array2) {
     }
   } else {
     console.log(`🛑🛑 Assertion Failed: ${array1} !== ${array2} 🛑🛑`);
-    ;
   }
 };
 
-assertArraysEqual([1, 2, 3], [1, 2, 3])
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
 
-assertArraysEqual([1, 2, 3], [1, 1, 2])
+assertArraysEqual([1, 2, 3], [1, 1, 2]);
 
-assertArraysEqual([1, 2, 3, 4], [1, 2, 3])
+assertArraysEqual([1, 2, 3, 4], [1, 2, 3]);
