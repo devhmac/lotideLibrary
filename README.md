@@ -1,6 +1,9 @@
 # LOTIDE Javascript Library
 
-## A recreation of Lodash Library pieces using JS fundamentals
+## A recreation of Lodash-like Library tools using JS fundamentals
+
+
+## <ins>Tools<ins> 
 
 ### assertEqual
 
