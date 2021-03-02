@@ -10,6 +10,7 @@ const assertEqual = function (actual, expected) {
 // are arrays the same length, if no, already false
 //if they are same length, loop through
 // if arr1[i] !== arr2[i] then we fail
+// if no fails are triggered we should be good!
 
 const eqArrays = function (array1, array2) {
   if (array1.length === array2.length) {
@@ -17,7 +18,7 @@ const eqArrays = function (array1, array2) {
       // console.log('arr 1 :', array1[i]);
       // console.log('arr 2 :', array2[i]);
       if (array1[i] !== array2[i]) {
-        console.log(`Index ${i} does not match array1 = ${array1[i]}, array 2 = ${array2[i]}`);
+        console.log(`Index ${i} does not match. Array1 = ${array1[i]}, Array 2 = ${array2[i]}`);
         return false;
       }
     }
@@ -38,3 +39,6 @@ eqArrays(["1", "2", "3"], ["1", "2", 3]) // => false
 
 console.log(eqArrays([1, 2, 3,], [1, 2, 3]))
 
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays([1, 2, 3], [1, 2, 2]), true);
+assertEqual(eqArrays([1, 2, 3], [1, 2, 2]), false);
