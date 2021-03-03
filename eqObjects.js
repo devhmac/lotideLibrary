@@ -9,13 +9,15 @@ const assertEqual = function (actual, expected) {
 
 //return true if both arrays have identical keys with identical values
 //else FALSE
+// for in loop!!!!!! through object1, if object1[key] !=== object2[key] false
 
 const eqObjects = function (object1, object2) {
+  obj1Keys = Object.keys(object1);
+  obj2Keys = Object.keys(object2);
 
-  if (Object.keys(object1).length !== Object.keys(object2).length) {
+  if (obj1Keys.length !== obj2Keys.length) {
     return false;
   }
-
 
 
 };
