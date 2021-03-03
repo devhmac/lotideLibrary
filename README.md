@@ -21,5 +21,8 @@
 - Function takes array as argument, returns new array with all values but the head.
 
 ### eqArrays
-- compare arrays for equality, return true if arrays are equal, return false if there are any differences.
+- compare arrays for equality, returning true/false, I check for any differences; if they exist, return false and if none exist, eqArrays returns true.
 
+### assertArraysEqual
+- Similar to assertEqual outputting a console.log stating pass or fail based on whether or not arrays are equal. 
+  - Without a return function, had to reconfigure the eqArrays code to include conditional logic on outputting pass message. 
