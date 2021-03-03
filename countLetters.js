@@ -23,4 +23,15 @@ const countLetters = function (string) {
   return returnObj;
 };
 
-countLetters('hello there')
+console.log(countLetters('hello there'));
+console.log(countLetters('Hey, there are 12 dogs'));
+
+
+//assert equal test
+const stringTest = 'hello'
+const actual = countLetters('hello')
+assertEqual(actual['h'], 1)
+assertEqual(actual['e'], 1)
+assertEqual(actual['l'], 2)
+assertEqual(actual['o'], 1)
+
