@@ -30,3 +30,7 @@
 ### without()
 - input two arrays, *source* and *itemsToRemove*. Return an array containing source, without any matching items from the itemsToRemove array. 
   - Does not modify the original source array, just returns a new once with the requested array elements removed.
+
+### flatten()
+- takes an array input, which can include nested arrays and *flattens* them all into a single array, removing nesting. 
+  - currently only working with 1 level of nesting

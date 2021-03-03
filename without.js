@@ -52,6 +52,7 @@ console.log(without([1, 2, 3, 0], [0, 1, 2, 3])); // => [2, 3]
 console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 console.log(without([1, 2, 3], [1, 2, 3, 4, 5]));
 console.log(without([1, 2, 3], [1, 2]));
+console.log(without(['hi', 'hello', 'howareyou'], ['hi']));
 
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
