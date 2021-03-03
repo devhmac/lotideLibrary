@@ -33,4 +33,4 @@
 
 ### flatten()
 - takes an array input, which can include nested arrays and *flattens* them all into a single array, removing nesting. 
-  - currently only working with 1 level of nesting
+  - currently only working with 1 level of nesting.
