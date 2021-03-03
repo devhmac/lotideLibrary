@@ -11,23 +11,21 @@ const assertEqual = function (actual, expected) {
 //find key by value!
 
 const findKeyByValue = function (object, value) {
-
   for (let key in object) {
     //console.log(key)
     if (object[key] === value) {
-      return key
+      return key;
     }
   }
   return undefined;
 };
 
 
-console.log(findKeyByValue({ dog: 1, cat: 2 }, 'dog'))
-console.log(findKeyByValue({ dog: 1, cat: 2 }, 1))
-
-
-
 //testing
+
+console.log(findKeyByValue({ dog: 1, cat: 2 }, 'dog'));
+console.log(findKeyByValue({ dog: 1, cat: 2 }, 1));
+
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
