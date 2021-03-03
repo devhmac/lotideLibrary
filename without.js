@@ -1,36 +1,27 @@
-// eqArray function
 const eqArrays = function (array1, array2) {
   if (array1.length === array2.length) {
     for (let i = 0; i < array1.length; i++) {
       if (array1[i] !== array2[i]) {
-        console.log(`Index ${i} is the first not matching. Array1 = ${array1[i]}, Array 2 = ${array2[i]}`);
         return false;
       }
     }
-    console.log('Your arrays match!');
     return true;
   } else {
-    console.log('Arrays are not the same length');
     return false;
   }
 };
 
-//assertArrayEqual function
-const assertArraysEqual = function (array1, array2) {
-  let isEqual;
-  if (array1.length === array2.length) {
-    for (let i = 0; i < array1.length; i++) {
-      if (array1[i] !== array2[i]) {
-        console.log(`🛑🛑 Assertion Failed: ${array1} !== ${array2} 🛑🛑`);
-        isEqual = false;
-        break;
-      }
-    }
-    if (isEqual !== false) {
-      console.log(`✅✅ Assertion Passed: ${array1} === ${array2} ✅ ✅ `);
-    }
+const assertEqual = function (actual, expected) {
+  if (actual === expected) {
+    console.log("Assertion Passed: [actual] === [expected]");
+  } else console.log("Assertion Failed: [actual] != [expected]");
+}
+
+const assertArraysEqual = function (actual, expected) {
+  if (eqArrays(actual, expected)) {
+    console.log(`✅✅ Assertion Passed: ${actual} === ${expected} ✅✅ `);
   } else {
-    console.log(`🛑🛑 Assertion Failed: ${array1} !== ${array2} 🛑🛑`);
+    console.log(`🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑 `);
   }
 };
 
