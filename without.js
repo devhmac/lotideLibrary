@@ -47,7 +47,7 @@ const without = function (source, itemsToRemove) {
     return returnArray;
   }
 };
-
+console.log(without([1, 1, 1, 1], [1]))
 console.log(without([1, 2, 3, 0], [0, 1, 2, 3])); // => [2, 3]
 console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 console.log(without([1, 2, 3], [1, 2, 3, 4, 5]));
