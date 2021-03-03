@@ -1,3 +1,21 @@
+//assert array equals test function
+const assertArraysEqual = function (actual, expected) {
+  let isEqual;
+  if (actual.length === expected.length) {
+    for (let i = 0; i < actual.length; i++) {
+      if (actual[i] !== expected[i]) {
+        console.log(`🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑 `);
+        isEqual = false;
+        break;
+      }
+    }
+    if (isEqual !== false) {
+      console.log(`✅✅ Assertion Passed: ${actual} === ${expected} ✅ ✅ `);
+    }
+  } else {
+    console.log(`🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑`);
+  }
+};
 
 
 
@@ -17,5 +35,14 @@ const letterPositions = function (string) {
   return returnObj
 };
 
-console.log(letterPositions('hello'))
 console.log(letterPositions('hi there'))
+
+console.log(letterPositions('hello'))
+let actual = letterPositions('hello');
+
+assertArraysEqual(actual['h'], [0])
+assertArraysEqual(actual['e'], [1])
+assertArraysEqual(actual['l'], [2, 3])
+assertArraysEqual(actual['o'], [4])
+
+assertArraysEqual(letterPositions('hello').h, [0])

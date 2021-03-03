@@ -8,7 +8,6 @@ const assertArraysEqual = function (actual, expected) {
         isEqual = false;
         break;
       }
-
     }
     if (isEqual !== false) {
       console.log(`✅✅ Assertion Passed: ${actual} === ${expected} ✅ ✅ `);
