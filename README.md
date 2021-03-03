@@ -19,3 +19,7 @@
 ### tail
 
 - Function takes array as argument, returns new array with all values but the head.
+
+### eqArrays
+- compare arrays for equality, return true if arrays are equal, return false if there are any differences.
+
