@@ -12,7 +12,7 @@
 
 **Install it:**
 
-`npm install @username/lotide`
+`npm install @devhmac/lotide`
 
 **Require it:**
 
