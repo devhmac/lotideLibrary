@@ -11,9 +11,9 @@ const flatten = function (array) {
     }
 
   }
-  console.log(flatArray)
+  return flatArray;
 }
 
-flatten([[1, 2, 3], 4, 5, [6, 7]])
-flatten([1, 2, [3, 4], 5, [6]])
-flatten([1, 'hello', ['im', 'nested'], 2, 3])
+console.log(flatten([[1, 2, 3], 4, 5, [6, 7]]))
+console.log(flatten([1, 2, [3, 4], 5, [6]]))
+console.log(flatten([1, 'hello', ['im', 'nested'], 2, 3]))
