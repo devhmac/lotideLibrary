@@ -4,20 +4,7 @@ const tail = function (array) {
   return arrayTail;
 };
 
-//assertEqual function to check tail functionality
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅ Assertion Passed: ${actual} === ${expected} ✅ ✅ `);
-  } else {
-    console.log(`🛑🛑 Assertion Failed: ${actual} !== ${expected} 🛑🛑`);
-  }
-};
 
-console.log(tail([1, 2, 3, 4]));
-/// assertEqual function is not robust enough to compare arrays, so you'd have to compare individual values.
-console.log(assertEqual(tail([1, 2, 3, 4]), [2, 3, 4]));
+module.exports = tail;
 
-//ensuring tail is not modifying original array, just creating a new one
-const words = ["hello", "lighthoues", "labs"];
-tail(words);
-assertEqual(words.length, 3);
+
