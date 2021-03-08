@@ -1,15 +1,11 @@
 const tail = require('../tail');
 const assert = require('chai').assert
 
-
-// const words = ["hello", "lighthoues", "labs"];
-
-// tail(words);
-// assertEqual(words.length, 3);
-// assertEqual(tail(words).length, 2);
-
 describe("tail", () => {
   it('should return ["cruel","world"] from ["goodbye","cruel","world"] ', () => {
     assert.deepEqual(tail(['goodbye', 'cruel', 'world']), ['cruel', 'world']);
+  })
+  it('should return [2,3] from [1,2,3] ', () => {
+    assert.deepEqual(tail([1, 2, 3]), [2, 3]);
   })
 })
