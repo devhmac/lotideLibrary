@@ -1,5 +1,5 @@
 # LOTIDE Javascript Library
-* ## A mini recreation of the [Lodash](https://lodash.com) library.
+* ## A mini recreation of the [Lodash](https://lodash.com) library. Published to NPM.
   * Built and published as project One of the Lighthouse Labs Bootcamp.
 
 ## Purpose
