@@ -46,3 +46,5 @@ assertArraysEqual(map(words, word => {
 
 
 assertArraysEqual(map([1, 2, 3, 4], num => num + 10), [11, 12, 13, 14]);
+
+module.exports = map;
