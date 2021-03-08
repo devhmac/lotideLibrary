@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@devhmac/lotide",
   "version": "1.0.0",
   "description": "Lotide library project for LHL",
   "main": "index.js",
@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/devhmac/lotideLibrary.git"
   },
-  "author": "",
+  "author": {
+    "name": "Devin MacGillivray",
+    "email": "devhmac@gmail.com",
+    "url": "https://github.com/devhmac/"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devhmac/lotideLibrary/issues"
