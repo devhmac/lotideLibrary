@@ -4,8 +4,8 @@ const head = require("../head");
 
 //our ugly test code not using mocha/chai
 
-// assertEqual(head([5, 6, 7]), 5);
-// assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+
+
 // assertEqual(head([]), undefined)
 // assertEqual(head([1]), 1)
 
@@ -16,6 +16,12 @@ describe('head', () => {
   });
   it('returns "5" for ["5"]', () => {
     assert.strictEqual(head(["5"]), "5");
+  });
+  it('returns "hello" from ["hello","lighthouse","labs"]', () => {
+    assert.strictEqual(head(["hello", "lighthouse", "labs"]), "hello");
+  });
+  it('returns undefined from []', () => {
+    assert.strictEqual(head([]), undefined);
   });
 
 });
