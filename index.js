@@ -1,15 +1,14 @@
 //index
 
-const assertArraysEqual = require("./assertArraysEqual");
-const assertEqual = require("./assertEqual");
-const head = require("./head");
-const middle = require("./middle");
-const tail = require("./tail");
+const assertArraysEqual = require("./assertArraysEqual"); // no return, no mocha test
+const assertEqual = require("./assertEqual");// no return, no mocha test
+const middle = require("./middle"); //done
+const tail = require("./tail"); //done
 const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
 const countOnly = require('./countOnly.js');
-const eqArrays = require("./eqArrays");
-const eqObjects = require('./eqObjects');
+const eqArrays = require("./eqArrays"); // done
+const eqObjects = require('./eqObjects'); //done
 const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
