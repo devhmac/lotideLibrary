@@ -2,10 +2,11 @@
 
 const assertArraysEqual = require("./assertArraysEqual"); // no return, no mocha test
 const assertEqual = require("./assertEqual");// no return, no mocha test
+const head = require('./head'); //done
 const middle = require("./middle"); //done
 const tail = require("./tail"); //done
 const assertObjectsEqual = require('./assertObjectsEqual'); //done no return no mocha
-const countLetters = require('./countLetters');
+const countLetters = require('./countLetters'); // done
 const countOnly = require('./countOnly.js');
 const eqArrays = require("./eqArrays"); // done
 const eqObjects = require('./eqObjects'); //done
