@@ -1,17 +1,6 @@
 //eq objects & eqArrays function bundle
+const eqArrays = require('./eqArrays')
 
-const eqArrays = function (array1, array2) {
-  if (array1.length === array2.length) {
-    for (let i = 0; i < array1.length; i++) {
-      if (array1[i] !== array2[i]) {
-        return false;
-      }
-    }
-    return true;
-  } else {
-    return false;
-  }
-};
 //eqObjects needs eqArrays
 const eqObjects = function (object1, object2) {
   obj1Keys = Object.keys(object1);
