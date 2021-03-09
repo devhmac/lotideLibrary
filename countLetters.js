@@ -23,9 +23,7 @@ const countLetters = function (string) {
   return returnObj;
 };
 
-console.log(countLetters('hello there'));
-console.log(countLetters('Hey, there are 12 dogs'));
-
+module.exports = countLetters;
 
 //assert equal test
 const stringTest = 'hello'
