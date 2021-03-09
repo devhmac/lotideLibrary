@@ -1,22 +1,22 @@
 //index
 
-const assertArraysEqual = require("./assertArraysEqual"); // no return, no mocha test
-const assertEqual = require("./assertEqual");// no return, no mocha test
-const head = require('./head'); //done
-const middle = require("./middle"); //done
-const tail = require("./tail"); //done
-const assertObjectsEqual = require('./assertObjectsEqual'); //done no return no mocha
-const countLetters = require('./countLetters'); // done
-const countOnly = require('./countOnly.js'); // done
-const eqArrays = require("./eqArrays"); // done
-const eqObjects = require('./eqObjects'); //done
-const findKey = require('./findKey'); //done
-const findKeyByValue = require('./findKeyByValue'); // done
-const flatten = require('./flatten');// done 
-const letterPositions = require('./letterPositions'); // done
-const map = require('./map'); // done
-const takeUntil = require('./takeUntil'); // done
-const without = require('./without'); //done
+const assertArraysEqual = require("./assertArraysEqual");
+const assertEqual = require("./assertEqual");
+const head = require('./head');
+const middle = require("./middle");
+const tail = require("./tail");
+const assertObjectsEqual = require('./assertObjectsEqual');
+const countLetters = require('./countLetters');
+const countOnly = require('./countOnly.js');
+const eqArrays = require("./eqArrays");
+const eqObjects = require('./eqObjects');
+const findKey = require('./findKey');
+const findKeyByValue = require('./findKeyByValue');
+const flatten = require('./flatten');
+const letterPositions = require('./letterPositions');
+const map = require('./map');
+const takeUntil = require('./takeUntil');
+const without = require('./without');
 
 module.exports = {
   head,
