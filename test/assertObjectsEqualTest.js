@@ -1,4 +1,4 @@
-
+const assertObjectsEqual = require('../assertObjectsEqual');
 
 
 //testing!
