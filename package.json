@@ -1,6 +1,6 @@
 {
   "name": "@devhmac/lotide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lotide library project for LHL",
   "main": "index.js",
   "directories": {
