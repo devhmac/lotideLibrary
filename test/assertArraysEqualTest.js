@@ -1,6 +1,7 @@
 const assertArraysEqual = require("../assertArraysEqual");
 
 
+console.log("----- AssertArraysEqual Test -----");
 
 assertArraysEqual([1, 2, 3], [1, 2, 3]);
 
