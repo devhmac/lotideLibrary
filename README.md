@@ -63,7 +63,7 @@ The following functions are currently implemented,
 
 ### flatten()
 - accepts an array input, which can include nested arrays and *flattens* them all into a single array, removing nesting. 
-  - currently only supports 1 level of nesting.
+  - Supports any amount of nesting due to utilizing recursion.
 
 ### countLetters()
 - accepts string as argument, outputs an object recording the # of times each character in said string occurs.
