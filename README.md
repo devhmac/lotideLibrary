@@ -4,7 +4,7 @@
 
 ## Purpose
 
-**_BEWARE:_ This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
+**This library was published for learning purposes. It is _not_ intended for use in production-grade software.**
 
 <br>
 
@@ -16,7 +16,7 @@
 
 **Require it:**
 
-`const _ = require('@username/lotide');`
+`const _ = require('@devhmac/lotide');`
 
 **Call it:**
 
